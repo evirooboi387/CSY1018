@@ -1,17 +1,22 @@
 body{
-  background-image: url(../images/1.png);
-  background-repeat: repeat;
+  background-image: url(images/1.jpg);
+  background-repeat: space;
+
 }
 
 .find img{
   width:60px;
   height: 60px;
-
-
+  float: left;
 }
 
+.intro img{
+  width:300px;
+  height:400px;
+
+}
 .nav{
-  background:red;
+  background:#001a66;
 }
 
 .nav ul{
@@ -24,18 +29,19 @@ body{
   text-decoration: none;
   display:block;
   text-align: center;
-}
+
+  }
 
 .nav li{
   flex:1 1 0;
 }
 
 .nav a:hover{
-  background:rgba(80,0,0,0.3);
+  background:#ff3300;
 }
 
 h1{
-  
+
   text-align: center;
   padding: 40px;
   font-family: Apple Chancery, cursive;
