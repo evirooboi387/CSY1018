@@ -1,5 +1,6 @@
 body{
-  background-color: grey;
+  background-image: url(../images/1.png);
+  background-repeat: repeat;
 }
 
 .find img{
@@ -34,8 +35,14 @@ body{
 }
 
 h1{
-  background-color: grey;
+  
   text-align: center;
   padding: 40px;
   font-family: Apple Chancery, cursive;
+}
+
+footer{
+  width: 100%;
+  justify-content: space-between;
+
 }
