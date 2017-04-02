@@ -1,0 +1,11 @@
+.cv{
+  display: flex;
+}
+.education{
+  flex: 1;
+}
+
+
+.skills{
+  flex: 1;
+}
