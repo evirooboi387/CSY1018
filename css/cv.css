@@ -4,8 +4,13 @@
 .education{
   flex: 1;
 }
-
+.education h2{
+  font-family: 'Amiri', serif;
+}
 
 .skills{
   flex: 1;
+}
+.skills h2{
+  font-family: 'Amiri', serif;
 }

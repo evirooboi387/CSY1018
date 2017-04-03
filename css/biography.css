@@ -1,0 +1,22 @@
+.bioimg img{
+  height:400px;
+  width: 300px;
+  float: right;
+  display: flex;
+
+ }
+.bio{
+ display: flex;
+
+  font-family: 'Amiri', serif;
+ }
+
+.bio h2{
+  font-family: 'Amiri', serif;
+  
+ }
+
+section{
+  display: flex;
+  width: 100%;
+ }
