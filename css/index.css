@@ -1,14 +1,16 @@
+/**Riwaj Bastola UNID: 164443282**/
 section{
   width:100%;
   background:#e3e3e3;
   display: flex;
-  box-shadow: 20px, 20px;
 
-  box-shadow: 20px 20px 20px 20px;
+
+  box-shadow: 10px 10px 20px 20px;
 }
 .image img{
   width:300px;
-  height:400px;;
+  height:400px;
+  border-radius: 50%;
 }
 .describe{
   font-family: 'Amiri', serif;

@@ -1,22 +1,51 @@
+/**Riwaj Bastola UNID: 164443282**/
+.bioimg{
+  width:60%;
+
+}
 .bioimg img{
   height:400px;
   width: 300px;
-  float: right;
   display: flex;
+  border-radius: 50%;
+  margin-left: 60px;
+  margin-top: 100px;
+
 
  }
-.bio{
- display: flex;
-
+ .bio{
+  margin-right: 60px;
+  width: 40%;
   font-family: 'Amiri', serif;
  }
 
 .bio h2{
   font-family: 'Amiri', serif;
-  
+  text-align: center;
+
+ }
+
+
+ .combo{
+   display:flex;
+   width: 100%;
+  box-shadow: 10px 10px 20px 20px;
+  background: linear-gradient(silver, grey);
  }
 
 section{
   display: flex;
   width: 100%;
  }
+@media all and(max-width:600px){
+  .bioimg img{
+    width:100%;
+  }
+  .combo{
+    flex-direction: column;
+    width:100%;
+  }
+  .bioimg{
+    width:100%;
+  }
+}
