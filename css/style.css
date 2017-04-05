@@ -38,7 +38,7 @@ nav a{
 
 nav li{
   flex:1 1 0;
-}
+  }
 
 nav a:hover{
   background: linear-gradient(#a73737, #7a2828);
@@ -53,8 +53,7 @@ h1{
 
 footer{
   width: 100%;
-   background:linear-gradient(to left, #403B4A, #E7E9BB);
-
+  background:linear-gradient(to left, #403B4A, #E7E9BB);
   margin-top:50px;
   display: flex;
   justify-content: space-between;
