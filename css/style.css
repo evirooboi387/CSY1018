@@ -85,7 +85,7 @@ footer p{
 
 }
 
-@media all and (max-width:600px)
+@media all and (max-width:800px)
 {
   nav {
     width:100%;

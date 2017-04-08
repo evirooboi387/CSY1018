@@ -10,7 +10,7 @@
   box-shadow: 10px 10px 20px 20px;
   width: 25%;
   padding: 50px;
-  margin: 50px;
+  margin: 30px;
   font-family: 'Amiri', serif;
 
 }
@@ -21,7 +21,7 @@
   box-shadow: 10px 10px 20px 20px;
   width: 25%;
   padding: 50px;
-  margin: 50px;
+  margin: 30px;
   font-family: 'Amiri', serif;
 }
 
@@ -29,7 +29,7 @@
   box-shadow: 10px 10px 20px 20px;
   width: 25%;
   padding: 50px;
-  margin: 50px;
+  margin: 30px;
   height: 200px;
   font-family: 'Amiri', serif;
 
@@ -38,14 +38,23 @@
   box-shadow: 10px 10px 20px 20px;
   width: 25%;
   padding: 50px;
-  margin: 50px;
+  margin: 30px;
   font-family: 'Amiri', serif;
 }
 .personalinfo{
   box-shadow: 10px 10px 20px 20px;
   width: 25%;
   padding: 50px;
-  margin: 50px;
+  margin: 30px;
   font-family: 'Amiri', serif;
 
 }
+@media all and (max-width:800px){
+    .cv{
+      display: flex;
+      flex-direction: column;
+
+    }
+
+
+  }

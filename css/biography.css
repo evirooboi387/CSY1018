@@ -38,3 +38,9 @@ section{
   display: flex;
   width: 100%;
  }
+ @media all and (max-width:800px){
+   .combo{
+     display:flex;
+     flex-direction: column;
+   }
+ }
